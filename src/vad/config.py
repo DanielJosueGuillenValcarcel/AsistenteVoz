@@ -1,3 +1,13 @@
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+ELEVENLABS_API_KEY = os.getenv(
+    "ELEVENLABS_API_KEY"
+)
+
 SAMPLE_RATE = 16000
 CHUNK_SIZE = 256
 CHANNELS = 1
