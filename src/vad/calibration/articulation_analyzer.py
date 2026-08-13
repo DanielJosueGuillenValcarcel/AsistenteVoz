@@ -1,6 +1,6 @@
 import numpy as np
 
-from .config import (
+from ..config import (
     SAMPLE_RATE,
     ARTICULATION_FRAME_MS,
     ARTICULATION_HOP_MS,

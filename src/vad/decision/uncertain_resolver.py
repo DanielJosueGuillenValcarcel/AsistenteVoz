@@ -1,4 +1,4 @@
-from .config import (
+from ..config import (
     AST_MIN_GROUP_SCORE,
     AST_MIN_MARGIN,
 )

@@ -1,12 +1,12 @@
-from .audio_capture import AudioCapture
-from .ten_vad_model import TenVADModel
-from .pre_roll_buffer import PreRollBuffer
-from .candidate_buffer import CandidateBuffer
-from .phonetic_worker import PhoneticWorker
-from .audio_event_verifier import AudioEventVerifier
-from .uncertain_resolver import UncertainResolver
+from .audio.audio_capture import AudioCapture
+from .audio.ten_vad_model import TenVADModel
+from .audio.pre_roll_buffer import PreRollBuffer
+from .audio.candidate_buffer import CandidateBuffer
+from .verification.phonetic_worker import PhoneticWorker
+from .verification.audio_event_verifier import AudioEventVerifier
+from .decision.uncertain_resolver import UncertainResolver
 
-from .speech_evidence_classifier import (
+from .decision.speech_evidence_classifier import (
     SpeechEvidenceClassifier,
     SpeechDecision,
 )

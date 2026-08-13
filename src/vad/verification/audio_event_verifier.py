@@ -6,7 +6,7 @@ from transformers import (
     AutoModelForAudioClassification,
 )
 
-from .config import SAMPLE_RATE
+from ..config import SAMPLE_RATE
 
 
 class AudioEventVerifier:

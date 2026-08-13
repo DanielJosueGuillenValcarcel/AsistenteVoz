@@ -2,7 +2,7 @@ import queue
 import threading
 
 from .phonetic_verifier import PhoneticVerifier
-from .config import PHONETIC_QUEUE_SIZE
+from ..config import PHONETIC_QUEUE_SIZE
 
 
 class PhoneticWorker:

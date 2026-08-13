@@ -2,7 +2,7 @@ import queue
 
 import sounddevice as sd
 
-from .config import (
+from ..config import (
     SAMPLE_RATE,
     CHUNK_SIZE,
     CHANNELS,

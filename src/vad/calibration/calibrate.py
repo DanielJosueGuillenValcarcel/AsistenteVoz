@@ -2,15 +2,15 @@ import time
 
 import numpy as np
 
-from .audio_capture import AudioCapture
-from .ten_vad_model import TenVADModel
-from .phonetic_verifier import PhoneticVerifier
-from .speech_evidence_classifier import SpeechEvidenceClassifier
+from ..audio.audio_capture import AudioCapture
+from ..audio.ten_vad_model import TenVADModel
+from ..verification.phonetic_verifier import PhoneticVerifier
+from ..decision.speech_evidence_classifier import SpeechEvidenceClassifier
 from .articulation_analyzer import ArticulationAnalyzer
-from .audio_event_verifier import AudioEventVerifier
+from ..verification.audio_event_verifier import AudioEventVerifier
 from .calibration_recorder import CalibrationRecorder
 
-from .config import (
+from ..config import (
     CHUNK_SIZE,
     PRE_ROLL_CHUNKS,
     CANDIDATE_END_SILENCE_CHUNKS,

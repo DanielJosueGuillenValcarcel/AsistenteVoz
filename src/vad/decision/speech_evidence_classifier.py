@@ -1,6 +1,6 @@
 from enum import Enum
 
-from .config import (
+from ..config import (
     EVIDENCE_ACCEPT_SCORE,
     EVIDENCE_REJECT_SCORE,
     EVIDENCE_MIN_DIVERSITY,

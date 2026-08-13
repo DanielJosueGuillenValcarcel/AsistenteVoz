@@ -3,7 +3,7 @@ import torch
 
 from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
 
-from .config import SAMPLE_RATE, PHONETIC_MODEL
+from ..config import SAMPLE_RATE, PHONETIC_MODEL
 
 
 class PhoneticVerifier:
